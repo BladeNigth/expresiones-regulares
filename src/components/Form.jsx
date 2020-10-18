@@ -2,7 +2,7 @@ import React from 'react'
 
 const Form = () =>{
 
-    const regex=/^[A-Z]{1}[0-9]{3}[a-zA-Z]{3}[!-/,:-@,[-`,{-~]{3}$/
+    const regex=/^[A-Z\u00d1]{1}[0-9]{3}[a-zA-ZÀ-ÿ\u00f1\u00d1]{3}\W{3}$/
     console.log(regex.test("A324gfd{-~"));
 
     const handleKeyUp= (e) =>{
