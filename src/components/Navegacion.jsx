@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../images/password.png'
+import img from '../images/Logo.svg'
 
 function Navegacion() {
     return ( 
