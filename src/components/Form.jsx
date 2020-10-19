@@ -2,10 +2,10 @@ import React from 'react'
 
 const Form = () =>{
 
-    const regex=/^[A-Z\u00d1]{1}[0-9]{3}[a-zA-ZÀ-ÿ\u00f1\u00d1]{3}\W{3}$/
+    const regex=/^[A-Z\u00d1]{1}[0-9]{3}[a-z,á-ú\u00f1]{3}\W{3}$/
     console.log(regex.test("A324gfd{-~"));
 
-    const handleKeyUp= (e) =>{
+    const handleChange= (e) =>{
         console.log(e.target.value);
         if(regex.test(e.target.value)){
            document.getElementById("input__password").classList.add("input__correcto");
@@ -34,7 +34,7 @@ const Form = () =>{
             <div className="input" id="input__password" >
                 <label htmlFor="password" className="input__label">Password</label>
                 <div className="grupo__input">
-                    <input onKeyUp={handleKeyUp} type="text" className="input__form" name="password" id="password" placeholder="Ejemplo: A123xyz$%&"/>
+                    <input onChange={handleChange} type="text" className="input__form" name="password" id="password" placeholder="Ejemplo: A123xyz$%&"/>
                     <i className="validacion__estado fas fa-times-circle"></i>
                 </div>
                 <p className="input__message__error">Esta contraseña no cumple con las condiciones establecidas...!</p>
