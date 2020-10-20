@@ -5,7 +5,6 @@ function Navegacion() {
     return ( 
         <div className="navegacion">
             <div className="navegacion__left">
-
                 <img src={img} alt="password"/>
                 <h1>R<span>e</span>g<span>e</span>x<span>_</span></h1>
             </div>
