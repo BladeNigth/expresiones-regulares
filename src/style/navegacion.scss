@@ -1,0 +1,84 @@
+.navegacion{
+    height: 140px;
+    border: 1px solid rgb(62, 150, 62);
+    border-bottom-left-radius: 100px;
+    background: url('../images/tono5.png') no-repeat, linear-gradient(to left bottom, #12831b, #1b8721, #228c26, #29902b, #2f9530, #379d36, #3ea43d, #45ac43, #4fb94c, #59c656, #64d45f, #6ee169); 
+    box-shadow: 0px 0px 5px rgb(57, 139, 57);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    transition: .2s ease;
+    
+    &__left{
+        position: relative;
+        display: flex;
+        left: 6%;
+        height: 70%;
+        margin-top: 8px;
+        align-items: center;
+        transition: .2s ease;
+        
+        &:hover{
+            transform: scale(1.01);
+            transition: .2s ease;
+            cursor: pointer;
+        }
+        
+        
+        & h1{
+            font-size: 3rem;
+            margin-left: 10px;        
+        }
+    
+        & img{
+            height: 70px;
+            width: 70px;
+        }
+    }
+    
+    .navegacion__right{
+        position: relative;
+        display: flex;
+        right: 6%;
+        height: 80%;
+        margin-top: 8px;
+        align-items: center;
+        transition: .2s ease;
+        
+        & h2{
+            margin: 10px 15px;
+            
+            &:hover{
+                transform: scale(1.01);
+                transition: .2s ease;
+                cursor: pointer;
+            }
+        }
+            
+        &__instrucciones{
+            /* border: 2px solid green; */
+            padding: 10px 10px;
+            border-radius: 20px;
+            background-color: #171b26;
+            box-shadow: 0px 0px 5px white;
+        
+            &:hover{
+                transform: scale(1.01);
+                transition: .2s ease;
+                color: #43AA41;
+                cursor: pointer;
+            }
+            
+            &:active{
+                color: white;
+                transform: scale(.95);
+                transition: .2s ease;
+                cursor: pointer;
+            }
+
+        }
+    
+    
+    }
+
+}
