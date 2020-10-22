@@ -38,7 +38,7 @@ function App() {
     console.log(nov.test("November"));        // true
 
 
-    console.log("valimos veigar/");
+
     const regex=/^[A-Z]{1}[0-9]{3}[a-zA-Z]{3}[!-/,:-@,[-`,{-~]{3}$/
     console.log(regex.test("A324gfd{-~"));
 */
