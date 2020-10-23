@@ -34,9 +34,9 @@
             & img{
                 height: 400px;
                 width: 400px; 
-                position: absolute;
-                left: 18%;
-                top: 30%;
+               // position: relative;
+               // left: 9%;
+               // top: 30%;
                 transition: .2s ease;
            
                 &:hover{
