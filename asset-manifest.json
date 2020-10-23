@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/expresiones-regulares/static/css/main.3560d0e6.chunk.css",
+    "main.js": "/expresiones-regulares/static/js/main.e8621fc7.chunk.js",
+    "main.js.map": "/expresiones-regulares/static/js/main.e8621fc7.chunk.js.map",
+    "runtime-main.js": "/expresiones-regulares/static/js/runtime-main.57b1f4a0.js",
+    "runtime-main.js.map": "/expresiones-regulares/static/js/runtime-main.57b1f4a0.js.map",
+    "static/js/2.7cdc7a75.chunk.js": "/expresiones-regulares/static/js/2.7cdc7a75.chunk.js",
+    "static/js/2.7cdc7a75.chunk.js.map": "/expresiones-regulares/static/js/2.7cdc7a75.chunk.js.map",
+    "index.html": "/expresiones-regulares/index.html",
+    "precache-manifest.82c185c8310a6d34b6f680f9dc632bcf.js": "/expresiones-regulares/precache-manifest.82c185c8310a6d34b6f680f9dc632bcf.js",
+    "service-worker.js": "/expresiones-regulares/service-worker.js",
+    "static/css/main.3560d0e6.chunk.css.map": "/expresiones-regulares/static/css/main.3560d0e6.chunk.css.map",
+    "static/js/2.7cdc7a75.chunk.js.LICENSE.txt": "/expresiones-regulares/static/js/2.7cdc7a75.chunk.js.LICENSE.txt",
+    "static/media/Logo.svg": "/expresiones-regulares/static/media/Logo.3b6128f7.svg",
+    "static/media/main.scss": "/expresiones-regulares/static/media/tono5.0a923b7a.png",
+    "static/media/verificacion.png": "/expresiones-regulares/static/media/verificacion.f8563c36.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.57b1f4a0.js",
+    "static/js/2.7cdc7a75.chunk.js",
+    "static/css/main.3560d0e6.chunk.css",
+    "static/js/main.e8621fc7.chunk.js"
+  ]
+}
