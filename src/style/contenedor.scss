@@ -65,10 +65,14 @@
                 padding: 20px 30px 30px 30px;
             
                 & h3{
-                    margin: 5px 0px;
+                    margin: 10px 0px;
                     font-size: 1.4rem;
                 }
-            
+/*
+                & p{
+                  // margin: 10px 0px; 
+                }
+            */
             }
         }
         
@@ -83,7 +87,7 @@
     color: white;
     width: 95%;
     padding: 5px;
-    margin: auto;
+    margin: 10px auto 10px;
 }
 
 /* Para el input */
