@@ -125,13 +125,21 @@
 
 .input__message__error{
     font-size: 14px;
+    font-weight: bold;
     margin-bottom: 0;
     display: none;
-    
+    margin-top: 10px;
+
     &__activo{
         font-size: 14px;
         display: block;
         color: #bb2929;
+    }
+
+    &__inactivo{
+        font-size: 14px;
+        display: block;
+        color: #4AB348;
     }
     
 }
@@ -151,6 +159,10 @@
     color: #4AB348;
     opacity: 1;
 }
+.input__correcto .input__label{
+    color: #4AB348;
+}
+
 
 .input__incorrecto .input__label{
     color: #bb2929;
