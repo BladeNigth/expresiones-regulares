@@ -1,6 +1,6 @@
 .ventana{
     max-width: 810px;
-    height: 67vh;
+    height: 77vh;
     background-color: white;
     position: relative;
     margin: auto;
@@ -39,6 +39,8 @@
     }
 
     .contenedor__boton{
+        // margin-top: 20px;
+        padding-bottom: 0;
         background-color: white;
         display: flex;
         justify-content: center;

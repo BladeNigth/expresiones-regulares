@@ -3,7 +3,7 @@ import Navegacion from './components/Navegacion'
 import Cuerpo from './components/Cuerpo'
 import Footer from './components/Footer'
 import VentanaModal from './components/ventanaModal';
-import { responderAcomandos } from './components/reconocimientoVoz/artyom';
+import { Asistente } from './components/reconocimientoVoz/artyom';
 
 const App = () => {
 
@@ -12,16 +12,20 @@ const App = () => {
   useEffect(() => {
     console.log("En este momento se muestra la ventana");
     setMostrarIndicaciones(true);
-    //iniciarReconocimientoDeVoz();
   },[])
+  
+  
+  
 
-  // const iniciarReconocimientoDeVoz = () => {
-  //     responderAcomandos();
-  // }
 
-
+  //Al quitar las indicaciones se activa artyom
   const quitarIndicaciones = () => {
-    setMostrarIndicaciones(false);
+    const asistente = new Asistente();
+    asistente.presentacion();
+    asistente.comandosEstaticos();
+    asistente.montarValidadorDeVoz();
+    
+    setMostrarIndicaciones(false)
   }
 
   const renderisa = () => {

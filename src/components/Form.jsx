@@ -1,9 +1,10 @@
-import React,{ useState, useEffect } from 'react'
+import React,{ useState } from 'react'
+//import Artyom from 'artyom.js';
 
 const Form = () =>{
 
     const [estadoDelInput,setEstadoDelInput] = useState('');
-
+    
     const regex=/^[A-Z\u00d1]{1}[0-9]{3}[a-z,á-ú\u00f1]{3}\W{3}$/
     console.log(regex.test("A324gfd{-~"));
 
@@ -34,7 +35,7 @@ const Form = () =>{
                         
             <h3>Ingresa tu password</h3>
             <p>Teniendo en cuenta la sigiente indicación:</p>
-            <p className="indicaciones">Una mayúscula seguida de tres números, seguidos de tres caracteres y luego seguidos de tres caracteres especiales.</p>
+            <p className="indicaciones">Una mayúscula seguida de tres números, seguidos de tres minúsculas y por último tres caracteres especiales.</p>
             <p>Digite en el siguiente input su password</p>
 
             <div className="input" id="input__password" >
