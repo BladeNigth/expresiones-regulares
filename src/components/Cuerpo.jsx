@@ -1,6 +1,7 @@
 import React from 'react'
 import img from '../images/verificacion.png'
 import Form from './Form'
+
 const Cuerpo = () => {
     return (
 

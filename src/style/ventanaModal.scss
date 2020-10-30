@@ -1,0 +1,75 @@
+.ventana{
+    max-width: 810px;
+    height: 77vh;
+    background-color: white;
+    position: relative;
+    margin: auto;
+    top: 80px;
+    border: 1px solid white;
+    border-radius: 5px;
+
+    h2{
+        font-size: 1.8rem;
+        text-align: center;
+        padding: 15px 0px;
+    }
+
+    &__contenido{
+        background-color: white;        
+        height:70%;
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+
+        &__left{
+            width: 50%;
+            padding: 20px;
+            font-weight: bold;
+            p{
+                padding: 6px 0;
+            }
+        }
+    
+        &__right{
+            img{
+                width: 330px;
+                height: 330px;
+            }
+        }
+    }
+
+    .contenedor__boton{
+        // margin-top: 20px;
+        padding-bottom: 0;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 13%;
+        button{
+            font-family: 'Quicksand', sans-serif;
+            font-weight: bold;
+            font-size: 1.2rem;        
+            background-color: teal;
+            border-radius: 50px;
+            padding: 10px 5px;
+            width: 200px;
+            outline: none;
+            transition: .2s ease;
+            &:hover{
+                transform: scale(1.01);
+                cursor:pointer;
+                transition: .2s ease;
+            }
+
+            &:active{
+                transition: .2s ease;
+                transform: scale(0.99);
+                color: white;
+            }
+            
+
+        }
+        
+    }
+}
